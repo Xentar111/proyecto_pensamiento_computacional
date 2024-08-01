@@ -11,6 +11,7 @@ for i in list_new_data:
     
 print(list_new_data)
 
+list_new_data = ['a', 'b', 'c', 'd']
 new_list = []
 for i in list_new_data:
     if i == 'b':
