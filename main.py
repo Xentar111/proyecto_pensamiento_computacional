@@ -29,8 +29,9 @@ new_ = iter(new_dict)
 #print(next(new_))
 
 print(type(new_dict))
-for i in new_dict:
+for i, x in new_dict.items():
     print('from new_dict: ', i)
+    print('from new_dict value: ', x)
 
 print(type(new_))
 for u in new_:
