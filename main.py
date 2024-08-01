@@ -21,4 +21,21 @@ for i in list_new_data:
         
 print(new_list)
 
-# 
+# Dicts
+
+new_dict = {'a':1, 'b':2}
+
+new_ = iter(new_dict)
+#print(next(new_))
+
+print(type(new_dict))
+for i in new_dict:
+    print('from new_dict: ', i)
+
+print(type(new_))
+for u in new_:
+    print('from new_: ', u)
+    #>>b
+    
+    #print(next(u))
+    #>>error
